@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#slider {
+    padding-top: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all 2s ease 2s;
+}
+
+.slide-item {
+    position: relative;
+}
+
+.slide-item > .img {
+    width: 1200px;
+    height: 500px;
+}
+
+@keyframes slider-automatic {
+    0% {
+        right: 0;
+    }
+    7.14% {
+        right: 0;
+    }
+    14.28% {
+        right: 1200px;
+    }
+    21.42% {
+        right: 1200px;
+    }
+    28.56% {
+        right: 2400px;
+    }
+    35.7% {
+        right: 2400px;
+    }
+    42.84% {
+        right: 3600px;
+    }
+    49.98% {
+        right: 3600px;
+    }
+    57.12% {
+        right: 3600px;
+    }
+    64.26% {
+        right: 2400px;
+    }
+    71.4% {
+        right: 2400px;
+    }
+    78.54% {
+        right: 1200px;
+    }
+    85.68% {
+        right: 1200px;
+    }
+    92.82% {
+        right: 1200px;
+    }
+    100% {
+        right: 0;
+    }
+}
